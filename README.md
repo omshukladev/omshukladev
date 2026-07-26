@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d1117&height=220&section=header&text=Om%20Shukla&fontSize=75&fontColor=58a6ff&fontAlignY=35&desc=Backend%20Engineer%20%E2%80%A2%20Real-time%20Systems%20%E2%80%A2%20Distributed%20Architecture&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d1117&height=220&section=header&text=Om%20Shukla&fontSize=75&fontColor=58a6ff&fontAlignY=35&desc=Fullstack%20Engineer%20%E2%80%A2%20Real-time%20Systems%20%E2%80%A2%20Distributed%20Architecture&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" />
 
 <p align="center">
   <a href="https://om-portfolio-chi-six.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=60&lines=Backend+Engineer+%7C+Real-time+Systems+Architect;600%2B+Contributions+%7C+9%2B+Production+Projects;WebSockets+%E2%80%A2+Cloudflare+Workers+%E2%80%A2+Node.js;Systems+that+scale%2C+sync%2C+and+survive+%E2%9A%A1" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=60&lines=Fullstack+Engineer+%7C+Real-time+Systems+Architect;600%2B+Contributions+%7C+9%2B+Production+Projects;React+%E2%80%A2+Node.js+%E2%80%A2+Cloudflare+Workers;Systems+that+scale%2C+sync%2C+and+survive+%E2%9A%A1" />
 </p>
 
 ---
@@ -16,7 +16,7 @@
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> About Me
 
 ```text
-🔧  Backend-focused engineer building real-time, distributed systems
+🔧  Fullstack engineer building real-time, distributed systems
 🚀  9+ production projects — from E2E encrypted chat to edge-deployed SaaS
 ⚡  I ship daily: 600+ contributions this year across 10+ repos
 🌐  Cloudflare Workers / D1 / R2 for edge-first architecture
@@ -102,11 +102,20 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=omshukladev&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&include_all_commits=true&count_private=true" />
-  <img width="49%" src="https://streak-stats.demolab.com/?user=omshukladev&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/omshukladev/omshukladev/main/profile/stats.svg" type="image/svg+xml" />
+    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=omshukladev&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&include_all_commits=true&count_private=true" />
+  </picture>
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/omshukladev/omshukladev/main/profile/streak.svg" type="image/svg+xml" />
+    <img width="49%" src="https://streak-stats.demolab.com/?user=omshukladev&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
+  </picture>
 </p>
 <p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omshukladev&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/omshukladev/omshukladev/main/profile/top-langs.svg" type="image/svg+xml" />
+    <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omshukladev&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
+  </picture>
 </p>
 
 ---
