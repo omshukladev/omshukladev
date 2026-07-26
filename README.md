@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=60&lines=Fullstack+Engineer+%7C+Real-time+Systems+Architect;600%2B+Contributions+%7C+9%2B+Production+Projects;React+%E2%80%A2+Node.js+%E2%80%A2+Cloudflare+Workers;Systems+that+scale%2C+sync%2C+and+survive+%E2%9A%A1" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=750&height=45&lines=Fullstack+Engineer+%7C+Real-time+Systems+Architect;600%2B+Contributions+%7C+9%2B+Production+Projects;React+%E2%80%A2+Node.js+%E2%80%A2+Cloudflare+Workers;Systems+that+scale%2C+sync%2C+and+survive+%E2%9A%A1" />
 </p>
 
 ---
@@ -65,14 +65,6 @@
 
 ---
 
-## 🏆 Achievements
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=omshukladev&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10" />
-</p>
-
----
-
 ## 🚀 Featured Projects
 
 | Project | Description | Tech Stack | Links |
@@ -102,20 +94,11 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <picture>
-    <source srcset="https://raw.githubusercontent.com/omshukladev/omshukladev/main/profile/stats.svg" type="image/svg+xml" />
-    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=omshukladev&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&include_all_commits=true&count_private=true" />
-  </picture>
-  <picture>
-    <source srcset="https://raw.githubusercontent.com/omshukladev/omshukladev/main/profile/streak.svg" type="image/svg+xml" />
-    <img width="49%" src="https://streak-stats.demolab.com/?user=omshukladev&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
-  </picture>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=omshukladev&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&include_all_commits=true&count_private=true" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=omshukladev&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
 </p>
 <p align="center">
-  <picture>
-    <source srcset="https://raw.githubusercontent.com/omshukladev/omshukladev/main/profile/top-langs.svg" type="image/svg+xml" />
-    <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omshukladev&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
-  </picture>
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omshukladev&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
 </p>
 
 ---
