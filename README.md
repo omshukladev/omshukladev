@@ -94,7 +94,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="60%" src="https://streak-stats.demolab.com/?user=omshukladev&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
+  <img width="60%" src="https://raw.githubusercontent.com/omshukladev/omshukladev/main/profile/streak.svg" />
 </p>
 
 ---
