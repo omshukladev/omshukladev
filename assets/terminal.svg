@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="680" viewBox="0 0 940 680">
+  <defs>
+    <style>
+      .term-bg { rx: 10; }
+      .term-bar { rx: 10; }
+      .term-title { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; font-size: 12px; }
+
+      /* Light Mode */
+      .term-bg { fill: #f6f8fa; stroke: #d0d7de; stroke-width: 1; }
+      .term-bar { fill: #eaeef2; }
+      .dot-red { fill: #ff5f56; }
+      .dot-yellow { fill: #ffbd2e; }
+      .dot-green { fill: #27c93f; }
+      .term-title { fill: #57606a; }
+
+      /* Dark Mode */
+      @media (prefers-color-scheme: dark) {
+        .term-bg { fill: #0d1117; stroke: #30363d; }
+        .term-bar { fill: #161b22; }
+        .term-title { fill: #8b949e; }
+      }
+
+      .cursor {
+        animation: cursorBlink 1s step-end infinite;
+      }
+      @keyframes cursorBlink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+      .line { opacity: 0; animation: lineFade 0.4s ease-out forwards; }
+      .l1  { animation-delay: 0.05s; }
+      .l2  { animation-delay: 0.10s; }
+      .l3  { animation-delay: 0.15s; }
+      .l4  { animation-delay: 0.20s; }
+      .l5  { animation-delay: 0.25s; }
+      .l6  { animation-delay: 0.30s; }
+      .l7  { animation-delay: 0.35s; }
+      .l8  { animation-delay: 0.40s; }
+      .l9  { animation-delay: 0.45s; }
+      .l10 { animation-delay: 0.50s; }
+      .l11 { animation-delay: 0.55s; }
+      .l12 { animation-delay: 0.60s; }
+      .l13 { animation-delay: 0.65s; }
+      .l14 { animation-delay: 0.70s; }
+      .l15 { animation-delay: 0.75s; }
+      .l16 { animation-delay: 0.80s; }
+      .l17 { animation-delay: 0.85s; }
+      .l18 { animation-delay: 0.90s; }
+      .l19 { animation-delay: 0.95s; }
+      .l20 { animation-delay: 1.00s; }
+      .l21 { animation-delay: 1.05s; }
+      .l22 { animation-delay: 1.10s; }
+      .l23 { animation-delay: 1.15s; }
+      .l24 { animation-delay: 1.20s; }
+      .l25 { animation-delay: 1.25s; }
+
+      @keyframes lineFade {
+        to { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Terminal Window Frame -->
+  <rect class="term-bg" x="0" y="0" width="940" height="680"/>
+
+  <!-- Title Bar -->
+  <rect class="term-bar" x="0" y="0" width="940" height="38"/>
+  <circle class="dot-red" cx="22" cy="19" r="6"/>
+  <circle class="dot-yellow" cx="42" cy="19" r="6"/>
+  <circle class="dot-green" cx="62" cy="19" r="6"/>
+  <text class="term-title" x="470" y="24" text-anchor="middle">omshukla@edge-node: ~ (neofetch)</text>
+
+  <!-- Terminal Content Block -->
+  <foreignObject x="20" y="46" width="900" height="624">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .wrapper {
+          font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+          font-size: 12.5px;
+          line-height: 1.65;
+          display: flex;
+          gap: 28px;
+          padding: 8px 4px;
+          color: #c9d1d9;
+        }
+        @media (prefers-color-scheme: light) {
+          .wrapper { color: #24292f; }
+          .label { color: #bc4c00 !important; }
+          .header-user { color: #0969da !important; }
+          .punct { color: #6e7781 !important; }
+          .val-cyan { color: #0550ae !important; }
+          .val-green { color: #1a7f37 !important; }
+          .val-gold { color: #8250df !important; }
+          .ascii-art { color: #0969da !important; }
+          .prompt { color: #0969da !important; }
+          .path { color: #1a7f37 !important; }
+        }
+        .ascii-col {
+          white-space: pre;
+          flex-shrink: 0;
+          width: 270px;
+        }
+        .ascii-art {
+          color: #58a6ff;
+          font-size: 11px;
+          line-height: 1.35;
+          font-weight: bold;
+        }
+        .info-col {
+          flex-grow: 1;
+        }
+        .header-user { color: #58a6ff; font-weight: bold; }
+        .punct { color: #484f58; }
+        .label { color: #e3b341; font-weight: bold; }
+        .val-cyan { color: #79c0ff; }
+        .val-green { color: #7ee787; }
+        .val-gold { color: #d2a8ff; }
+        .prompt { color: #58a6ff; }
+        .path { color: #7ee787; }
+      </style>
+      <div class="wrapper">
+        <!-- ASCII Graphic Column -->
+        <div class="ascii-col">
+          <pre class="ascii-art">
+             .----------------.
+            | .--------------. |
+            | |     ______   | |
+            | |   .' ___  |  | |
+            | |  / .'   \_|  | |
+            | |  | |         | |
+            | |  \ `.___.'\  | |
+            | |   `._____.'  | |
+            | |              | |
+            | '--------------' |
+             '----------------'
+                 ||      ||
+             .---''------''---.
+            |  [OM]  ::  SYSTEM|
+            |  STATUS: ONLINE  |
+            |  SYS/DISTRIBUTED |
+            |  KERNEL: V8-EDGE |
+            |  CRYPTO: AES-256 |
+             '----------------'
+                 ||      ||
+                 ||      ||
+             .---''------''---.
+            | {  REAL-TIME  }  |
+            | &lt;  EDGE-FIRST &gt;  |
+            | (  FULL-STACK )  |
+             '----------------'
+          </pre>
+        </div>
+
+        <!-- Neofetch Detail Column -->
+        <div class="info-col">
+          <div class="line l1"><span class="header-user">omshukla@edge-node</span> <span class="punct">─────────────────────────────</span></div>
+          <div class="line l2"><span class="label">OS</span><span class="punct">: .................. </span>Arch Linux x86_64, macOS Darwin</div>
+          <div class="line l3"><span class="label">Host</span><span class="punct">: ................ </span>Fullstack &amp; Real-time Systems Engineer</div>
+          <div class="line l4"><span class="label">Kernel</span><span class="punct">: .............. </span>Node.js v22 LTS, Cloudflare V8 Workers</div>
+          <div class="line l5"><span class="label">Uptime</span><span class="punct">: .............. </span>9+ Production Projects Shipped</div>
+          <div class="line l6"><span class="label">Location</span><span class="punct">: ............ </span>Lucknow, India [UTC+05:30]</div>
+          <div class="line l7">&#160;</div>
+
+          <div class="line l8"><span class="punct">- </span><span class="header-user">Tech Arsenal</span> <span class="punct">──────────────────────────────</span></div>
+          <div class="line l9"><span class="label">Languages</span><span class="punct">: ........... </span><span class="val-cyan">TypeScript, JavaScript, Python, SQL, HTML/CSS</span></div>
+          <div class="line l10"><span class="label">Real-time</span><span class="punct">: ........... </span><span class="val-green">WebSockets, Socket.IO (&lt;200ms latency), Event-Streams</span></div>
+          <div class="line l11"><span class="label">Backend &amp; APIs</span><span class="punct">: ...... </span>Express.js, Hono, Fastify, RESTful Architecture</div>
+          <div class="line l12"><span class="label">Frontend &amp; App</span><span class="punct">: ...... </span>React, Next.js, Astro, Tailwind CSS, Vite, React Native, Expo</div>
+          <div class="line l13"><span class="label">Storage &amp; DBs</span><span class="punct">: ....... </span>PostgreSQL, MongoDB, Redis, Cloudflare D1, Cloudflare R2, Prisma</div>
+          <div class="line l14"><span class="label">Cloud &amp; DevOps</span><span class="punct">: ....... </span>Cloudflare Workers, AWS, Docker, GitHub Actions, Prometheus</div>
+          <div class="line l15"><span class="label">Security &amp; Auth</span><span class="punct">: ...... </span>AES-256 Encryption, JWT, OAuth 2.0, Rate Limiting</div>
+          <div class="line l16">&#160;</div>
+
+          <div class="line l17"><span class="punct">- </span><span class="header-user">Systems Metrics</span> <span class="punct">────────────────────────────</span></div>
+          <div class="line l18"><span class="label">Production Apps</span><span class="punct">: ..... </span><span class="val-cyan">10 Systems</span> [Chatty, CostPilot, Talent-IQ, PDF ToolKit, ...]</div>
+          <div class="line l19"><span class="label">Engineering Metric</span><span class="punct">: .. </span><span class="val-green">600+ Commits</span> across distributed repositories</div>
+          <div class="line l20"><span class="label">Architecture</span><span class="punct">: ........ </span><span class="val-gold">Edge-first, zero-cold-start, observable pipelines</span></div>
+          <div class="line l21">&#160;</div>
+
+          <div class="line l22"><span class="punct">- </span><span class="header-user">Connect</span> <span class="punct">────────────────────────────────────</span></div>
+          <div class="line l23"><span class="label">Portfolio</span><span class="punct">: ........... </span>om-portfolio-chi-six.vercel.app</div>
+          <div class="line l24"><span class="label">LinkedIn</span><span class="punct">: ............ </span>linkedin.com/in/omshuklalko</div>
+          <div class="line l25"><span class="label">Email</span><span class="punct">: ............... </span>omshuklalko@gmail.com</div>
+
+          <div class="line l25" style="margin-top: 6px;">
+            <span class="prompt">omshukla@edge-node</span><span class="punct">:</span><span class="path">~</span><span class="punct">$ </span><span class="cursor" style="background:#c9d1d9;color:#0d1117;">&#160;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
