@@ -69,5 +69,23 @@
 ---
 
 <div align="center">
+  <a href="https://om-portfolio-chi-six.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/PORTFOLIO-58a6ff?style=flat-square&logo=vercel&logoColor=white&labelColor=161b22" alt="Portfolio" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/omshuklalko" target="_blank">
+    <img src="https://img.shields.io/badge/LINKEDIN-0077b5?style=flat-square&logo=linkedin&logoColor=white&labelColor=161b22" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:omshuklalko@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-ea4335?style=flat-square&logo=gmail&logoColor=white&labelColor=161b22" alt="Email" />
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=omshukladev&style=flat-square&color=58a6ff&labelColor=161b22&label=VISITORS" alt="Profile Views" />
+</div>
+
+<br />
+
+<div align="center">
   <sub>Building systems that scale, sync, and survive.</sub>
 </div>
