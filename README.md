@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="Om Shukla - Terminal Profile" />
+  <img src="./assets/terminal_card.svg" width="100%" alt="Om Shukla - Terminal Profile" />
 </div>
 
 <br />
