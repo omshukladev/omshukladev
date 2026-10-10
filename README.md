@@ -57,7 +57,7 @@
 
 | System | Architecture &amp; Function | Repository / Demo |
 | :--- | :--- | :--- |
-| **EdgeGuard** | Anti-cheat tournament monitoring extension with Cloudflare Workers backend and randomized R2 screenshot capture | [Repository](https://github.com/omshukladev/edgeguard) |
+| **EdgeGuard** | Anti-cheat tournament monitoring extension with Cloudflare Workers backend and randomized R2 screenshot capture | [Repository](https://github.com/omshukladev/screen-shot-extension) |
 | **Cloudinary SaaS** | Media asset management platform with automated social media aspect-ratio transformations | [Repository](https://github.com/omshukladev/saas-cloudinary) &middot; [Live](https://omshukladev-saas-cloudinary.vercel.app/) |
 | **TinyURL** | High-throughput URL shortening service with QR code generation and Redis rate limiting | [Repository](https://github.com/omshukladev/tiny-url) &middot; [Live](https://tiny-url-xr7b.onrender.com) |
 | **Sonic Runner** | High-frame-rate endless runner browser game built on the Kaplay gaming engine | [Repository](https://github.com/omshukladev/sonic-ring-runner) &middot; [Live](https://sonic-ringrunner.netlify.app/) |
